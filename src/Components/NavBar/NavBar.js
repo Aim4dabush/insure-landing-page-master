@@ -8,7 +8,7 @@ function NavBar() {
   return (
     <div className="nav-bar">
       <div className="logo">
-        <img src={process.env.PUBLIC_URL + "/Images/logo.svg"} alt="" />
+        <img src={process.env.PUBLIC_URL + "/Images/logo.svg"} alt="logo" />
       </div>
       <div className="nav-links" style={{ display: !open ? "none" : "block" }}>
         <ul>
@@ -32,6 +32,7 @@ function NavBar() {
             process.env.PUBLIC_URL + "/Images/Mobile/bg-pattern-mobile-nav.svg"
           }
           alt="mobile nav pattern"
+          className="mobile-nav-pattern"
         />
       </div>
       <div

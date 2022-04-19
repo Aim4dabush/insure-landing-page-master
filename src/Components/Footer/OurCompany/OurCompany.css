@@ -1,0 +1,25 @@
+.our-company {
+  font-weight: 700;
+}
+
+h4 {
+  color: hsl(273, 4%, 51%);
+  margin-bottom: 3em;
+  text-align: center;
+}
+
+li {
+  margin: 1em 0;
+  text-align: center;
+}
+
+li a {
+  color: hsl(270, 9%, 17%);
+
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}

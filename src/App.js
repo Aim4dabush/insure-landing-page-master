@@ -2,6 +2,8 @@ import "./App.css";
 
 //components
 import Advertisements from "./Components/Advertisements/Advertisements";
+import Footer from "./Components/Footer/Footer";
+import HowWeWork from "./Components/HowWeWork/HowWeWork";
 import Intro from "./Components/Intro/Intro";
 import NavBar from "./Components/NavBar/NavBar";
 
@@ -17,6 +19,8 @@ function App() {
       </div>
       <Intro />
       <Advertisements />
+      <HowWeWork />
+      <Footer />
     </div>
   );
 }
