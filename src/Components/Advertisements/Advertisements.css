@@ -1,0 +1,13 @@
+.advertisements {
+  margin-top: 140px;
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  color: hsl(270, 9%, 17%);
+}
+
+hr {
+  width: 50%;
+}

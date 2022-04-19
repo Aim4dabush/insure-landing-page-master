@@ -1,6 +1,7 @@
 import "./App.css";
 
 //components
+import Advertisements from "./Components/Advertisements/Advertisements";
 import Intro from "./Components/Intro/Intro";
 import NavBar from "./Components/NavBar/NavBar";
 
@@ -15,6 +16,7 @@ function App() {
         />
       </div>
       <Intro />
+      <Advertisements />
     </div>
   );
 }
