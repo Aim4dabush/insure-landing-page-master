@@ -17,6 +17,14 @@ function App() {
           alt="mobile"
         />
       </div>
+      <div className="desktop">
+        <img
+          src={
+            process.env.PUBLIC_URL + "/Images/Desktop/image-intro-desktop.jpg"
+          }
+          alt="desktop"
+        />
+      </div>
       <Intro />
       <Advertisements />
       <HowWeWork />

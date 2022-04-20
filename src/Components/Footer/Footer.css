@@ -18,7 +18,41 @@
   z-index: 1;
 }
 
-.footer-pattern {
+.footer-pattern-mobile {
   position: absolute;
   top: 0;
+}
+
+.footer-pattern-desktop {
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .info {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .top {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .footer-logo {
+    margin-top: 3em;
+    margin-left: 110px;
+  }
+
+  .footer-pattern-mobile {
+    display: none;
+  }
+
+  .footer-pattern-desktop {
+    display: block;
+    position: absolute;
+    top: 0;
+  }
 }

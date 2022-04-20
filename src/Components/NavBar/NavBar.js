@@ -4,13 +4,13 @@ import React, { useState } from "react";
 import "./NavBar.css";
 
 function NavBar() {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
   return (
     <div className="nav-bar">
       <div className="logo">
         <img src={process.env.PUBLIC_URL + "/Images/logo.svg"} alt="logo" />
       </div>
-      <div className="nav-links" style={{ display: !open ? "none" : "block" }}>
+      <div className="nav-links" style={{ display: !open ? "none" : "flex" }}>
         <ul>
           <li>
             <a href="#">HOW WE WORK</a>
@@ -51,6 +51,7 @@ function NavBar() {
           <img
             src={process.env.PUBLIC_URL + "/Images/icon-close.svg"}
             alt="close"
+            className="close"
           />
         )}
       </div>

@@ -10,3 +10,10 @@ h2 {
 p {
   color: hsl(273, 4%, 51%);
 }
+
+@media (min-width: 900px) {
+  .snappy-process {
+    padding: 0 4em;
+    text-align: left;
+  }
+}

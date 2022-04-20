@@ -4,10 +4,33 @@
   width: 100%;
 }
 
-h1 {
+.advertisements h1 {
   color: hsl(270, 9%, 17%);
 }
 
 hr {
   width: 50%;
+}
+
+@media (min-width: 900px) {
+  .advertisements {
+    margin-top: 15em;
+    margin-left: 6em;
+  }
+
+  .advertisements h1 {
+    font-size: 2.6em;
+    margin-left: 0.5em;
+    text-align: left;
+  }
+
+  .advertisements hr {
+    margin-bottom: 4em;
+    margin-left: 65px;
+    width: 90px;
+  }
+
+  .advertisements-sections {
+    display: flex;
+  }
 }

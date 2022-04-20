@@ -3,6 +3,21 @@
   z-index: 1;
 }
 
-.social-media img {
+.social-media a {
+  color: hsl(273, 4%, 51%);
+  font-size: 27px;
   padding: 0 0.5em;
+  z-index: 1;
+}
+
+.social-media a:hover {
+  color: hsl(256, 26%, 20%);
+}
+
+@media (min-width: 900px) {
+  .social-media {
+    display: flex;
+    height: 100%;
+    margin-right: 110px;
+  }
 }

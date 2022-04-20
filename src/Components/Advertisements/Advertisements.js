@@ -13,9 +13,17 @@ function Advertisements() {
     <div className="advertisements">
       <hr />
       <h1>We're different</h1>
-      <SnappyProcess />
-      <AffordablePrices />
-      <PeopleFirst />
+      <div className="advertisements-sections">
+        <div>
+          <SnappyProcess />
+        </div>
+        <div>
+          <AffordablePrices />
+        </div>
+        <div>
+          <PeopleFirst />
+        </div>
+      </div>
     </div>
   );
 }

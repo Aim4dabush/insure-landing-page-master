@@ -7,10 +7,12 @@ const Button = styled.button`
   font-weight: 700;
   padding: 1em 2em;
   text-decoration: none;
+  z-index: 1;
 
   &:hover {
     background: hsl(0, 0%, 98%);
     color: hsl(256, 26%, 20%);
+    cursor: pointer;
   }
 `;
 

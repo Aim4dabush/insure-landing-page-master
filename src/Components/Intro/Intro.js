@@ -13,24 +13,45 @@ function Intro() {
           "/Images/Mobile/bg-pattern-intro-left-mobile.svg"
         }
         alt="left"
-        className="left"
+        className="mobile-left"
       />
-      <h1>
-        Humanizing <br /> your insurance.
-      </h1>
-      <p>
-        Get your life insurance coverage easier and faster. We blend our
-        expertise and technology to help you find the plan that's right for you.
-        Ensure you and your loved ones are protected.
-      </p>
-      <Button>VIEW PLANS</Button>
+      <img
+        src={
+          process.env.PUBLIC_URL +
+          "/Images/Desktop/bg-pattern-intro-left-desktop.svg"
+        }
+        alt="left"
+        className="desktop-left"
+      />
+
+      <div className="intro-content">
+        <h1>
+          <hr />
+          Humanizing <br /> your insurance.
+        </h1>
+        <p>
+          Get your life insurance coverage easier and faster. We blend our
+          expertise and technology to help you find the plan that's right for
+          you. Ensure you and your loved ones are protected.
+        </p>
+        <Button>VIEW PLANS</Button>
+      </div>
+
       <img
         src={
           process.env.PUBLIC_URL +
           "/Images/Mobile/bg-pattern-intro-right-mobile.svg"
         }
         alt="right"
-        className="right"
+        className="mobile-right"
+      />
+      <img
+        src={
+          process.env.PUBLIC_URL +
+          "/Images/Desktop/bg-pattern-intro-right-desktop.svg"
+        }
+        alt="right"
+        className="desktop-right"
       />
     </div>
   );
